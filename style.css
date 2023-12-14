@@ -1,18 +1,24 @@
 h1 {
     font-size: 24px;
-    font-family: 'Brixton', sans-serif;
-    color: black;
+    font-family: 'Impact', sans-serif;
+    color: white;
     text-align: center;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-size: 12px;
-    font-family: 'Brixton', sans-serif;      
+    font-family: 'Impact', sans-serif;  
+    color: white;    
 }
 
 p {
     font-size: 13px;
-    font-family: 'Brixton', sans-serif;
+    font-family: 'Impact', sans-serif;
 }
 
 button {
@@ -20,13 +26,21 @@ button {
     background-color: darkred;
     color: lightblue;
     border-radius: 5px;
+    font-family: 'Impact', sans-serif;
 }
 
+.bigButton {
+    padding-left: 1.3cm;
+    padding-right: 1.3cm;
+    padding-top: 0.6cm;
+    padding-bottom: 0.6cm;
+}
+
+
 .mainDiv {
-    border: 2px outset darkred;
-    background-color: white;
+    background-color: black;
     text-align: center;
-    padding-bottom: 5cm;
+    color: white;
 }
 
 .f-l {
@@ -37,8 +51,4 @@ button {
 .f-r {
     float: none;
     padding-left: 3cm;
-}
-
-button {
-    font-family: 'Brixton', sans-serif;
 }
