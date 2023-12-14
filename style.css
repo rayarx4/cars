@@ -30,11 +30,19 @@ button {
 }
 
 .f-l {
-    float: left;
-    padding-left: 35%;
+    float: none;
+    padding-right: 3cm;
 }
     
 .f-r {
-    float: right;
-    padding-right: 35%;
+    float: none;
+    padding-left: 3cm;
+}
+
+button {
+    font-family: 'Brixton', sans-serif;
+}
+
+.button-container {
+    display: flex;
 }
