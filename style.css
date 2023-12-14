@@ -1,0 +1,40 @@
+h1 {
+    font-size: 24px;
+    font-family: 'Brixton', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Brixton', sans-serif;      
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Brixton', sans-serif;
+}
+
+button {
+    font-size: 25px;
+    background-color: darkred;
+    color: lightblue;
+    border-radius: 5px;
+}
+
+.mainDiv {
+    border: 2px outset darkred;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5cm;
+}
+
+.f-l {
+    float: left;
+    padding-left: 35%;
+}
+    
+.f-r {
+    float: right;
+    padding-right: 35%;
+}
