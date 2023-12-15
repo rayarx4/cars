@@ -21,6 +21,10 @@ p {
     font-family: 'Impact', sans-serif;
 }
 
+:root {
+    --screen-width: 100vw; /* Default value for the variable */
+}
+
 button {
     font-size: 25px;
     background-color: darkred;
@@ -29,9 +33,10 @@ button {
     font-family: 'Impact', sans-serif;
 }
 
+
 .bigButton {
-    padding-left: 1.3cm;
-    padding-right: 1.3cm;
+    padding-left: 2.3cm;
+    padding-right: 2.3cm;
     padding-top: 0.6cm;
     padding-bottom: 0.6cm;
 }
@@ -43,14 +48,28 @@ button {
     color: white;
 }
 
-.f-l {
+.bigButtonL {
     float: none;
-    padding-right: 3cm;
+    margin-right: 65vw;
+    padding-left: 3.3cm;
+    padding-right: 3.3cm;
+    padding-top: 1.6cm;
+    padding-bottom: 1.6cm;
+    background: transparent;
+    border: none !important;
+    font-size:0;
 }
     
-.f-r {
+.bigButtonR {
     float: none;
-    padding-left: 3cm;
+    margin-left: 65vw;
+    padding-left: 3.3cm;
+    padding-right: 3.3cm;
+    padding-top: 1.6cm;
+    padding-bottom: 1.6cm;
+    background: transparent;
+    border: none !important;
+    font-size:0;
 }
 
 .container {
@@ -73,4 +92,10 @@ button {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.logo {
+    width: 3cm;
+    height: auto;
+
 }
