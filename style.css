@@ -10,10 +10,27 @@ h1 {
     margin: 0;
 }
 
+.image {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    right: 0;
+    opacity: 1;
+    background-image: url("web_prototype_full.png"); /* Set the default image */
+    background-size: cover;
+    transition: background-image 0.3s ease; /* Add a smooth transition effect */
+}
+
+
 body {
     font-size: 12px;
     font-family: 'Cambria', 'Impact', sans-serif;  
     color: white;    
+}
+
+body::before {
+    content: url("web_prototype_full_audi_hover.png");
+    display: none;
 }
 
 p {
@@ -65,6 +82,11 @@ button {
 .bigButtonL {
     left: 6vw;
     padding-bottom: 10vw;
+    transition: background-image 0.3s ease;
+}
+
+.bigButtonL:hover + .overlay-text .image {
+    background-image: url("web_prototype_full_audi_hover.png") !important; /* Set the hover image */
 }
 
 .bigButtonR { 
@@ -115,42 +137,12 @@ button {
     width: 100vw;
 }
 
-.image {
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    right: 0;
-    opacity: 1;
-}
+
 
 .logo {
     width: 10cm;
     height: auto;
 
-}
-
-.car1Image {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0;
-}
-
-.car2Image {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0;
-}
-
-.car3Image {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    display: block;
-    opacity: 0;
 }
 
 .grid {
