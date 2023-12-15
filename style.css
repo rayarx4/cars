@@ -57,55 +57,46 @@ button {
     border: none !important;
     font-size:0;
     */
-}
-
-    
-.bigButtonL {
-    margin-right: 7vw;
-    padding-left: 15vw;
-    padding-right: 8vw;
-    padding-top: 6vw;
-    padding-bottom: 15vw;
-}
-
-.bigButtonR {
-    margin-left: 0vw;
+    position: absolute;
+    margin-top: 30vw;
     padding-right: 20vw;
-    padding-top: 6vw;
-    padding-bottom: 15vw;
+}
+
+.bigButtonL {
+    left: 6vw;
+    padding-bottom: 10vw;
+}
+
+.bigButtonR { 
+    left: 71vw;
+    padding-bottom: 10vw;
 }
 
 .bigButtonM {
-    margin-right: 5vw;
-    padding-left: 14vw;
-    padding-right: 7vw;
-    padding-top: 6vw;
-    padding-bottom: 15vw;
+    left: 38vw;
+    top: 5vw;
+    padding-bottom: 10vw;
 }
 
 .vendorButton {
-    margin-right: 2vw;
-    margin-bottom: 18vw;
-    padding-left: 16vw;
-    padding-right: 8vw;
-    padding-top: 8vw;
-    padding-bottom: 30vw;
+    left: 8vw;
+    top: 31vw;
+    padding-top: 10vw;
+    padding-bottom: 12vw;
 }
 
 .ticketButton {
-    margin-right: 1vw;
-    padding-left: 16vw;
-    padding-right: 8vw;
-    padding-top: 8vw;
-    padding-bottom: 30vw;
+    left: 39vw;
+    top: 39vw;
+    padding-top:2vw;
+    padding-bottom:4vw;
 }
 
 .attendButton {
-    margin-right: 1vw;
-    padding-top: 8vw;
-    padding-bottom: 30vw;
-    padding-left: 13vw;
-    padding-right: 7vw;
+    left: 68vw;
+    top: 31vw;
+    padding-top: 10vw;
+    padding-bottom: 12vw;
 }
 
 .container {
@@ -113,13 +104,11 @@ button {
   text-align: center;
   color: white;
   width: 100vw;
+  height: auto;
 }
 
 .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
     text-align: center;
@@ -127,9 +116,11 @@ button {
 }
 
 .image {
-    width: 100%;
+    position: absolute;
+    width: 100vw;
     height: auto;
-    display: block;
+    right: 0;
+    opacity: 1;
 }
 
 .logo {
@@ -137,3 +128,40 @@ button {
     height: auto;
 
 }
+
+.car1Image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0;
+}
+
+.car2Image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0;
+}
+
+.car3Image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
