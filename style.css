@@ -48,6 +48,14 @@ button {
     color: white;
 }
 
+.bigButtonL,
+.bigButtonM,
+.bigButtonR {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
     
 .bigButtonL {
     margin-right: 0vw;
@@ -99,10 +107,4 @@ button {
     width: 10cm;
     height: auto;
 
-}
-
-.f-l {
-}
-    
-.f-r {
 }
