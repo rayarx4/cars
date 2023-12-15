@@ -51,23 +51,23 @@ button {
     
 .bigButtonL {
     margin-right: 11vw;
-    padding-left: 4.1cm;
+    padding-left: 20vw;
     padding-top: 3cm;
     padding-bottom: 1cm;
 }
 
 .bigButtonR {
     margin-left: 11vw;
-    padding-right: 4.1cm;
+    padding-right: 20vw;
     padding-top: 3cm;
     padding-bottom: 1cm;
 }
 
 .bigButtonM {
-    padding-left: 2.3cm;
-    padding-right: 2.3cm;
+    padding-left: 12vw;
+    padding-right: 12vw;
     padding-top: 3.3cm;
-    padding-bottom: 0.5cm;
+    padding-bottom: 2.3cm;
 }
 
 .container {
