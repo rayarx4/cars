@@ -22,7 +22,7 @@ p {
 }
 
 :root {
-    --screen-width: 100vw; /* Default value for the variable */
+    --screen-width: 200vw; /* Default value for the variable */
 }
 
 button {
@@ -48,29 +48,33 @@ button {
     color: white;
 }
 
-.bigButtonR,
-.bigButtonM,
-.bigButtonL {
-    float: none;
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
-    padding-top: 0.3cm;
-    padding-bottom: 0.3cm;
-
-}
     
 .bigButtonL {
-    margin-right: 65vw;
+    margin-right: 20vw;
+    padding-left: 2.8cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
 }
 
 .bigButtonR {
-    margin-left: 65vw;
+    margin-left: 20vw;
+    padding-right: 2.8cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+.bigButtonM {
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    padding-top: 1cm;
+    padding-bottom: 0.5cm;
 }
 
 .container {
   position: relative;
   text-align: center;
   color: white;
+  width: 100vw;
 }
 
 .overlay-text {
@@ -81,6 +85,7 @@ button {
     color: white;
     font-size: 24px;
     text-align: center;
+    width: 100vw;
 }
 
 .image {
@@ -96,11 +101,7 @@ button {
 }
 
 .f-l {
-    float: left;
-    margin-left: 25vw;
 }
     
 .f-r {
-    float: right;
-    margin-right: 25vw;
 }
