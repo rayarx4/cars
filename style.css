@@ -52,10 +52,10 @@ button {
 .bigButtonM,
 .bigButtonL {
     float: none;
-    padding-left: 3.3cm;
-    padding-right: 3.3cm;
-    padding-top: 1.6cm;
-    padding-bottom: 1.6cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
 
 }
     
@@ -93,4 +93,14 @@ button {
     width: 3cm;
     height: auto;
 
+}
+
+.f-l {
+    float: left;
+    margin-left: 25vw;
+}
+    
+.f-r {
+    float: right;
+    margin-right: 25vw;
 }
