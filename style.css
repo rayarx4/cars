@@ -28,6 +28,7 @@ button {
     color: lightblue;
     border-radius: 5px;
     font-family: 'Cambria', 'Impact', sans-serif;
+    opacity: 0.5;
 }
 
 
@@ -51,16 +52,18 @@ button {
 .attendButton,
 .vendorButton,
 .ticketButton {
+    /*
     background: transparent;
     border: none !important;
     font-size:0;
+    */
 }
 
     
 .bigButtonL {
-    margin-right: 0vw;
+    margin-right: 7vw;
     padding-left: 15vw;
-    padding-right: 15vw;
+    padding-right: 8vw;
     padding-top: 6vw;
     padding-bottom: 15vw;
 }
@@ -73,8 +76,9 @@ button {
 }
 
 .bigButtonM {
-    padding-left: 12vw;
-    padding-right: 12vw;
+    margin-right: 5vw;
+    padding-left: 14vw;
+    padding-right: 7vw;
     padding-top: 6vw;
     padding-bottom: 15vw;
 }
@@ -84,22 +88,22 @@ button {
     margin-bottom: 18vw;
     padding-left: 16vw;
     padding-right: 8vw;
-    padding-top: 16vw;
-    padding-bottom: 24vw;
+    padding-top: 8vw;
+    padding-bottom: 30vw;
 }
 
 .ticketButton {
     margin-right: 1vw;
     padding-left: 16vw;
     padding-right: 8vw;
-    padding-top: 10vw;
-    padding-bottom: 24vw;
+    padding-top: 8vw;
+    padding-bottom: 30vw;
 }
 
 .attendButton {
     margin-right: 1vw;
-    padding-top: 9vw;
-    padding-bottom: 24vw;
+    padding-top: 8vw;
+    padding-bottom: 30vw;
     padding-left: 13vw;
     padding-right: 7vw;
 }
