@@ -50,14 +50,15 @@ button {
 
     
 .bigButtonL {
-    margin-right: 11vw;
-    padding-left: 20vw;
+    margin-right: 0vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-top: 15vw;
     padding-bottom: 5vw;
 }
 
 .bigButtonR {
-    margin-left: 11vw;
+    margin-left: 0vw;
     padding-right: 20vw;
     padding-top: 15vw;
     padding-bottom: 5vw;
@@ -95,7 +96,7 @@ button {
 }
 
 .logo {
-    width: 3cm;
+    width: 10cm;
     height: auto;
 
 }
