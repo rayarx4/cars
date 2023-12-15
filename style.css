@@ -11,14 +11,12 @@ h1 {
 }
 
 .image {
-    position: absolute;
-    width: 100vw;
+    width: 100%;
     height: auto;
-    right: 0;
     opacity: 1;
-    background-image: url("web_prototype_full.png"); /* Set the default image */
+    background-image: url("web_prototype_full.png");
     background-size: cover;
-    transition: background-image 0.3s ease; /* Add a smooth transition effect */
+    transition: background-image 0.3s ease;
 }
 
 
@@ -46,6 +44,10 @@ button {
     border-radius: 5px;
     font-family: 'Cambria', 'Impact', sans-serif;
     opacity: 0.5;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 
@@ -77,16 +79,17 @@ button {
     position: absolute;
     margin-top: 30vw;
     padding-right: 20vw;
+    z-index: 1;
 }
 
 .bigButtonL {
     left: 6vw;
     padding-bottom: 10vw;
-    transition: background-image 0.3s ease;
 }
 
-.bigButtonL:hover + .overlay-text .image {
+.bigButtonL:hover + .image {
     background-image: url("web_prototype_full_audi_hover.png") !important; /* Set the hover image */
+    transition: background-image 0.3s ease;
 }
 
 .bigButtonR { 
@@ -129,12 +132,9 @@ button {
   height: auto;
 }
 
+
 .overlay-text {
     position: absolute;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    width: 100vw;
 }
 
 
