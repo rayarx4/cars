@@ -51,9 +51,11 @@ button {
 .bigButtonL,
 .bigButtonM,
 .bigButtonR {
+    /*
     background: transparent;
     border: none !important;
     font-size:0;
+    */
 }
 
     
@@ -62,14 +64,14 @@ button {
     padding-left: 15vw;
     padding-right: 15vw;
     padding-top: 15vw;
-    padding-bottom: 5vw;
+    padding-bottom: 15vw;
 }
 
 .bigButtonR {
     margin-left: 0vw;
     padding-right: 20vw;
     padding-top: 15vw;
-    padding-bottom: 5vw;
+    padding-bottom: 15vw;
 }
 
 .bigButtonM {
@@ -77,6 +79,32 @@ button {
     padding-right: 12vw;
     padding-top: 15vw;
     padding-bottom: 15vw;
+}
+
+.vendorButton {
+    margin-right: 9vw;
+    margin-bottom: 18vw;
+    padding-left: 6vw;
+    padding-right: 7vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.ticketButton {
+    margin-right: 2vw;
+    padding-left: 9vw;
+    padding-right: 8vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.attendButton {
+    margin-left: 4vw;
+    margin-right: 1vw;
+    padding-top: 7vw;
+    padding-bottom: 9vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
 .container {
