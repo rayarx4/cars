@@ -71,11 +71,9 @@ button:hover {
 .attendButton,
 .vendorButton,
 .ticketButton {
-    /*
     background: transparent;
     border: none !important;
     font-size:0;
-    */
     position: absolute;
     margin-top: 30vw;
     padding-right: 20vw;
