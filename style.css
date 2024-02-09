@@ -1,0 +1,290 @@
+.default-home-page {
+    background-color: #010101;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .default-home-page .div {
+    background-color: #010101;
+    height: 1317px;
+    overflow: hidden;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .default-home-page .overlap {
+    height: 1168px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+  }
+  
+  .default-home-page .car-ani {
+    background-image: url(./car-show-progress-pic-12-13-1-2.png) !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .default-home-page .wave {
+    height: 486px;
+    left: 0;
+    position: absolute;
+    top: 682px;
+    width: 1280px;
+  }
+  
+  .default-home-page .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 207px;
+    left: 222px;
+    position: absolute;
+    top: 152px;
+    width: 836px;
+  }
+  
+  .default-home-page .text {
+    align-self: stretch;
+    color: transparent;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+  }
+  
+  .default-home-page .text-wrapper {
+    color: #d4d4d4;
+  }
+  
+  .default-home-page .span {
+    color: #d4d4d4;
+    font-size: 48px;
+  }
+  
+  .default-home-page .text-wrapper-2 {
+    color: #c5c5c5;
+    font-size: 15px;
+  }
+  
+  .default-home-page .information {
+    height: 350px;
+    left: 790px;
+    position: absolute;
+    top: 752px;
+    width: 302px;
+  }
+  
+  .default-home-page .overlap-group {
+    height: 350px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .default-home-page .rectangle {
+    height: 350px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+  
+  .default-home-page .text-wrapper-3 {
+    color: #df2935;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 301px;
+    width: 247px;
+  }
+  
+  .default-home-page .concessions {
+    height: 350px;
+    left: 190px;
+    position: absolute;
+    top: 752px;
+    width: 302px;
+  }
+  
+  .default-home-page .img {
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+  
+  .default-home-page .text-wrapper-4 {
+    color: #df2935;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 301px;
+    width: 247px;
+  }
+  
+  .default-home-page .buy-tickets {
+    height: 350px;
+    left: 490px;
+    position: absolute;
+    top: 752px;
+    width: 302px;
+  }
+  
+  .default-home-page .bottom-bar {
+    height: 149px;
+    left: 0;
+    position: absolute;
+    top: 1168px;
+    width: 1282px;
+  }
+  
+  .default-home-page .overlap-2 {
+    background-color: #010101;
+    height: 149px;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .default-home-page .arrow {
+    height: 92px;
+    left: 473px;
+    position: absolute;
+    top: 32px;
+    width: 76px;
+  }
+  
+  .default-home-page .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 549px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 46px;
+    width: 323px;
+  }
+  
+  .default-home-page .upper-bar-thingy {
+    height: 100px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1286px;
+  }
+  
+  .default-home-page .overlap-3 {
+    background-color: #010101;
+    box-shadow: 0px 3px 4px #d4d4d4;
+    height: 100px;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .default-home-page .overlap-group-2 {
+    border-radius: 25px;
+    height: 37px;
+    left: 1060px;
+    position: absolute;
+    top: 32px;
+    width: 120px;
+  }
+  
+  .default-home-page .rectangle-2 {
+    background-color: #df293580;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 25px;
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+  }
+  
+  .default-home-page .text-wrapper-6 {
+    color: #010101;
+    font-family: "Source Serif Pro-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 107px;
+  }
+  
+  .default-home-page .logo {
+    height: 57px;
+    left: 602px;
+    position: absolute;
+    top: 21px;
+    width: 95px;
+  }
+  
+  .default-home-page .element {
+    height: 57px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+  
+  .default-home-page .arrow-2 {
+    height: 57px;
+    left: 47px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+  
+  .default-home-page .text-wrapper-7 {
+    color: #d4d4d4;
+    font-family: "Crimson Text-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 949px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 38px;
+    width: 79px;
+  }
+  
+  .default-home-page .text-wrapper-8 {
+    color: #d4d4d4;
+    font-family: "Crimson Text-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 800px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 38px;
+    white-space: nowrap;
+    width: 111px;
+  }
+  
